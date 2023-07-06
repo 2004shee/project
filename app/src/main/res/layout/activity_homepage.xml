@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/images"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/btnOrderNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLogo"
+        android:layout_marginTop="24dp"
+        android:text="Order Now"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="40dp"
+        android:backgroundTint="#29B6F6"/>
+
+    <Button
+        android:id="@+id/btnViewOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnOrderNow"
+        android:layout_marginTop="95dp"
+        android:backgroundTint="#29B6F6"
+        android:fontFamily="sans-serif-condensed"
+        android:text="View Orders"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnManageAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnViewOrders"
+        android:layout_marginTop="74dp"
+        android:backgroundTint="#29B6F6"
+        android:fontFamily="sans-serif-condensed"
+        android:minHeight="48dp"
+        android:text="Delivery Info"
+        android:textSize="40dp" />
+
+</RelativeLayout>

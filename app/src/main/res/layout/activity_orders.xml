@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Orders">
+
+    <TextView
+        android:id="@+id/tvPageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Services Available"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rgServiceOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbDryCleaning"
+            android:layout_width="358dp"
+            android:layout_height="109dp"
+            android:button="@null"
+            android:drawableLeft="@drawable/drc"
+            android:drawablePadding="8dp"
+            android:text="Drycleaning"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/rbWashAndFold"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:button="@null"
+            android:drawableLeft="@drawable/washandfold"
+            android:drawablePadding="8dp"
+            android:text="Wash and Fold"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/rbCarpetCleaning"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:button="@null"
+            android:drawableLeft="@drawable/carpetcleaning"
+            android:drawablePadding="8dp"
+            android:text="Carpet Cleaning"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/rbDuvetAndCurtainLaundry"
+            android:layout_width="360dp"
+            android:layout_height="128dp"
+            android:button="@null"
+            android:drawableLeft="@drawable/curtainandduvet"
+            android:drawablePadding="8dp"
+            android:text="Duvet and Curtain Laundry"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/rbLaundryAndIroning"
+            android:layout_width="360dp"
+            android:layout_height="120dp"
+            android:button="@null"
+            android:drawableLeft="@drawable/laundryandironing"
+            android:drawablePadding="8dp"
+            android:text="Laundry and Ironing"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/PlaceOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place Order"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

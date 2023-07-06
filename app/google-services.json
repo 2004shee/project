@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "234994864229",
+    "project_id": "washable-6b747",
+    "storage_bucket": "washable-6b747.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234994864229:android:bca8a9bb8348435d55f68c",
+        "android_client_info": {
+          "package_name": "com.example.washable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234994864229-uiru28alqmgfe5ds87badcrtfpou43nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK-n-77jeAxlPhZLilTx9EaocWy3UpvbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234994864229-uiru28alqmgfe5ds87badcrtfpou43nn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

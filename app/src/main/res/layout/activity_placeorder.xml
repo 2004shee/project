@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Place Order"
+        android:textSize="70sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Service:"
+        android:layout_marginTop="16dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive" />
+
+    <RadioGroup
+        android:id="@+id/GroupServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/ButtonDryCleaning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drycleaning ($8 per kg)"
+            android:textSize="25sp"
+            android:fontFamily="cursive" />
+
+        <RadioButton
+            android:id="@+id/buttonWashAndFold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wash and Fold ($10 per kg)"
+            android:textSize="25sp"
+            android:fontFamily="cursive" />
+
+        <RadioButton
+            android:id="@+id/LaundryAndIroning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="Laundry and Ironing ($12 per kg)"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/CarpetCleaning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carpet Cleaning ($15 per sqm)"
+            android:textSize="20sp"
+            android:fontFamily="cursive" />
+
+        <RadioButton
+            android:id="@+id/CurtainAndDuvetCleaning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curtain and Duvet Cleaning ($20 per kg)"
+            android:textSize="20sp"
+            android:fontFamily="cursive" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Weight (kg):"
+        android:layout_marginTop="16dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive" />
+
+    <EditText
+        android:id="@+id/TextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:hint="Enter weight in kg"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/quotation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quotation:"
+        android:layout_marginTop="16dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/TotalCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="8dp"
+        android:textSize="40sp"
+        android:fontFamily="cursive" />
+
+    <Button
+        android:id="@+id/EnterOrder"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="cursive"
+        android:minHeight="48dp"
+        android:text="Place Order" />
+
+</LinearLayout>
